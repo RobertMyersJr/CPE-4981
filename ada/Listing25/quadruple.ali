@@ -1,0 +1,22 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+
+U quadruple%b		quadruple.adb		83548762 NE OO SU
+
+U quadruple%s		quadruple.ads		afd459a5 EE NE OO SU
+
+D quadruple.ads		20260201222631 afd459a5 quadruple%s
+D quadruple.adb		20260201223248 2c80dec7 quadruple%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z s b [quadruple standard 1 10 none]
+X 1 quadruple.ads
+1V10*Quadruple{integer} 1>21 2|1b10 17l5 17t14
+1i21 I{integer} 2|1b21 14r27
+X 2 quadruple.adb
+3V14 Double{integer} 3b14 3>22 7l9 7t15 14s12 14s20
+3i22 I{integer} 6r16
+9i5 Res{integer} 14m5 16r12
+

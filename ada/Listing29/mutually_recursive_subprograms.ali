@@ -1,0 +1,19 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+
+U mutually_recursive_subprograms%b  mutually_recursive_subprograms.adb  931dc6e7 NE OO SU
+
+D mutually_recursive_subprograms.adb  20260201230017 931dc6e7 mutually_recursive_subprograms%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z b b [mutually_recursive_subprograms standard 1 11 none]
+X 1 mutually_recursive_subprograms.adb
+1U11*Mutually_Recursive_Subprograms 1b11 23l5 23t35
+2U15 Compute_A 2>26 9s13 14b15 19l9 19t18 22s5
+2i26 V{natural} 14b26 16r12 17r24
+5U15 Compute_B 5b15 5>26 11l9 11t18 17s13
+5i26 V{natural} 7r12 9r24
+

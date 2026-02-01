@@ -1,0 +1,67 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U show_increment%b	show_increment.adb	29e36706 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W increment_by%s	increment_by.adb	increment_by.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20240620080806 76789da1 ada%s
+D a-except.ads		20240620080806 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240620080806 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240620080806 119b8fb3 ada.streams%s
+D a-string.ads		20240620080806 90ac6797 ada.strings%s
+D a-sttebu.ads		20240620080806 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20240620080806 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20240620080806 9eaa38c6 ada.tags%s
+D a-textio.ads		20240620080806 deada98a ada.text_io%s
+D a-unccon.ads		20240620080806 0e9b276f ada.unchecked_conversion%s
+D increment_by.ads	20260201165533 912f03e4 increment_by%s
+D interfac.ads		20240620080806 edec285f interfaces%s
+D i-cstrea.ads		20240620080806 e53d8b8e interfaces.c_streams%s
+D show_increment.adb	20260201170008 6661cd68 show_increment%b
+D system.ads		20240620080806 a2da961d system%s
+D s-conca2.ads		20240620080806 3d460502 system.concat_2%s
+D s-conca6.ads		20240620080806 c726e2e8 system.concat_6%s
+D s-crtl.ads		20240620080806 8a0692f8 system.crtl%s
+D s-exctab.ads		20240620080806 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240620080806 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20240620080806 0d3f86a7 system.image_i%s
+D s-imgint.ads		20240620080806 bdb6f5ec system.img_int%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-putima.ads		20240620080806 4e095881 system.put_images%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20240620080806 df77073e system.soft_links%s
+D s-stache.ads		20240620080806 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240620080806 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20240620080806 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240620080806 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240620080806 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240620080806 d9032363 system.wch_con%s
+D unchconv.ads		20240620080806 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [show_increment standard 3 11 none]
+G r c none [show_increment standard 3 11 none] [increment_by standard 1 10 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 727e16 14|1w10 1r27
+507U14*Put_Line 14|8s5 14s5 25s5
+X 11 increment_by.ads
+1V10*Increment_By{integer} 14|2w6 6s10 12s10 23s10
+X 14 show_increment.adb
+3U11*Show_Increment 3b11 31l5 31t19
+4i5 A{integer} 10m5 12r23 15r22 21m5 23r23 26r22
+4i7 B{integer} 11m5 12r25 17r22 22m5 23r25 28r22
+4i9 C{integer} 6m5 8r68 12m5 19r22 23m5 30r22
+

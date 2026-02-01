@@ -1,0 +1,22 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+
+U show_renaming%b	show_renaming.adb	9be7b1fc NE OO SU
+W a_procedure_with_very_long_name_that_cannot_be_changed%s  a_procedure_with_very_long_name_that_cannot_be_changed.adb  a_procedure_with_very_long_name_that_cannot_be_changed.ali
+
+D a_procedure_with_very_long_name_that_cannot_be_changed.ads  20260201231021 6e76e502 a_procedure_with_very_long_name_that_cannot_be_changed%s
+D show_renaming.adb	20260201231134 f59154fe show_renaming%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z b b [show_renaming standard 3 11 none]
+G r c none [show_renaming standard 3 11 none] [a_procedure_with_very_long_name_that_cannot_be_changed standard 1 11 none]
+X 1 a_procedure_with_very_long_name_that_cannot_be_changed.ads
+1U11*A_Procedure_With_Very_Long_Name_That_Cannot_Be_Changed 2|1w6 5r9
+X 2 show_renaming.adb
+3U11*Show_Renaming 3b11 8l5 8t18
+4U15 Show=5:9 7s5
+4a21 S{string}
+

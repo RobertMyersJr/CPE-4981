@@ -1,0 +1,18 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+
+U outp%b		outp.adb		307145a2 NE OO SU
+
+D outp.adb		20260201225533 307145a2 outp%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z b b [outp standard 1 11 none]
+X 1 outp.adb
+1U11*Outp 1b11 9l5 9t9
+2U15 Foo 2b15 2<20 6l9 6t12
+2i20 A{integer} 3r24 5m9
+3i9 B{integer} 5r14
+

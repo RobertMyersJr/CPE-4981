@@ -1,0 +1,15 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+
+U increment%b		increment.adb		bd4598ca NE OO SU
+
+D increment.adb		20260201164800 bd4598ca increment%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z b b [increment standard 1 10 none]
+X 1 increment.adb
+1V10*Increment{integer} 1b10 1>21 4l5 4t14
+1i21 I{integer} 3r14
+
