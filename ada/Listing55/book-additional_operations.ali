@@ -1,0 +1,38 @@
+V "GNAT Lib v12"
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U book.additional_operations%b  book-additional_operations.adb  fc25c80f NE OO PK
+W book%s		book.adb		book.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U book.additional_operations%s  book-additional_operations.ads  059115c8 EE NE OO PK
+W book%s		book.adb		book.ali
+
+D book.ads		20260202221637 2750d336 book%s
+D book-additional_operations.ads  20260202221637 22c1c6fe book.additional_operations%s
+D book-additional_operations.adb  20260202221637 dee40ef1 book.additional_operations%b
+D system.ads		20240620080806 a2da961d system%s
+D s-conca2.ads		20240620080806 3d460502 system.concat_2%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+G a e
+G c Z s b [get_extended_title book__additional_operations 2 14 none]
+G c Z s b [get_extended_author book__additional_operations 4 14 none]
+G r c none [get_extended_title book__additional_operations 2 14 none] [get_title book 5 14 none]
+G r c none [get_extended_author book__additional_operations 4 14 none] [get_author book 7 14 none]
+X 1 book.ads
+1K9*Book 8e9 2|1r9 5r5 3|1r14 14r5
+5V14*Get_Title{string} 3|5s33
+7V14*Get_Author{string} 3|11s34
+X 2 book-additional_operations.ads
+1K14*Additional_Operations 1|1k9 2|5l10 5e31 3|1b19 14l10 14t31
+2V14*Get_Extended_Title{string} 3|3b14 6l9 6t27
+4V14*Get_Extended_Author{string} 3|8b14 12l9 12t28
+

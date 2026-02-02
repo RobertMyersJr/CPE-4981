@@ -1,0 +1,62 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+
+U conv%b		conv.adb		2256d0d5 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+
+D ada.ads		20240620080806 76789da1 ada%s
+D a-except.ads		20240620080806 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240620080806 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240620080806 119b8fb3 ada.streams%s
+D a-string.ads		20240620080806 90ac6797 ada.strings%s
+D a-sttebu.ads		20240620080806 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20240620080806 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20240620080806 9eaa38c6 ada.tags%s
+D a-textio.ads		20240620080806 deada98a ada.text_io%s
+D a-unccon.ads		20240620080806 0e9b276f ada.unchecked_conversion%s
+D conv.adb		20260202231738 fcfb795f conv%b
+D interfac.ads		20240620080806 edec285f interfaces%s
+D i-cstrea.ads		20240620080806 e53d8b8e interfaces.c_streams%s
+D system.ads		20240620080806 a2da961d system%s
+D s-crtl.ads		20240620080806 8a0692f8 system.crtl%s
+D s-exctab.ads		20240620080806 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240620080806 dc5161d4 system.file_control_block%s
+D s-imager.ads		20240620080806 500b11a9 system.image_r%s
+D s-imageu.ads		20240620080806 525c30c6 system.image_u%s
+D s-imgflt.ads		20240620080806 78689de8 system.img_flt%s
+D s-imguns.ads		20240620080806 0e4da2ac system.img_uns%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-powflt.ads		20240620080806 d8ff1a45 system.powten_flt%s
+D s-putima.ads		20240620080806 4e095881 system.put_images%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20240620080806 df77073e system.soft_links%s
+D s-stache.ads		20240620080806 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240620080806 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20240620080806 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240620080806 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240620080806 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240620080806 d9032363 system.wch_con%s
+D unchconv.ads		20240620080806 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [conv standard 2 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 727e16 11|1w10 1r27
+507U14*Put_Line 11|14s9
+X 11 conv.adb
+2U11*Conv 2b11 15l5 15t9
+3F10 Meters<float> 6r28
+4F10 Miles<float> 5r21 9r9 14r19
+5f5 Dist_Imperial{4F10} 8m5 14r32
+6f5 Dist_Metric{3F10} 9r16
+

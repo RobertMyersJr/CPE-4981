@@ -1,0 +1,17 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+
+U main%b		main.adb		de7bed80 NE OO SU
+
+D main.adb		20260202223624 de7bed80 main%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z b b [main standard 1 12 none]
+X 1 main.adb
+1U12*Main 1b12 6l6 6t10
+2i6 A{integer} 5r11
+3i6 B{integer} 5m6
+

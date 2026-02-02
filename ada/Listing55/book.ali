@@ -1,0 +1,28 @@
+V "GNAT Lib v12"
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+
+U book%b		book.adb		a703bcb4 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U book%s		book.ads		2750d336 EE NE OO PK
+
+D book.ads		20260202221637 2750d336 book%s
+D book.adb		20260202221637 80536f82 book%b
+D system.ads		20240620080806 a2da961d system%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+G a e
+G c Z s b [get_title book 5 14 none]
+G c Z s b [get_author book 7 14 none]
+X 1 book.ads
+1K9*Book 8l5 8e9 2|1b14 15l5 15t9
+2a5*Title{string} 2|7r16
+5V14*Get_Title{string} 2|5b14 8l9 8t18
+7V14*Get_Author{string} 2|10b14 13l9 13t19
+X 2 book.adb
+2a5 Author{string} 12r16
+
