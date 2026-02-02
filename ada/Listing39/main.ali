@@ -1,0 +1,69 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U main%b		main.adb		f36b0175 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W operations%s		operations.adb		operations.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20240620080806 76789da1 ada%s
+D a-except.ads		20240620080806 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240620080806 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240620080806 119b8fb3 ada.streams%s
+D a-string.ads		20240620080806 90ac6797 ada.strings%s
+D a-sttebu.ads		20240620080806 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20240620080806 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20240620080806 9eaa38c6 ada.tags%s
+D a-textio.ads		20240620080806 deada98a ada.text_io%s
+D a-unccon.ads		20240620080806 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240620080806 edec285f interfaces%s
+D i-cstrea.ads		20240620080806 e53d8b8e interfaces.c_streams%s
+D main.adb		20260202011842 bff1a857 main%b
+D operations.ads	20260202011701 923700a8 operations%s
+D system.ads		20240620080806 a2da961d system%s
+D s-conca5.ads		20240620080806 47259367 system.concat_5%s
+D s-crtl.ads		20240620080806 8a0692f8 system.crtl%s
+D s-exctab.ads		20240620080806 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240620080806 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20240620080806 0d3f86a7 system.image_i%s
+D s-imgint.ads		20240620080806 bdb6f5ec system.img_int%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-putima.ads		20240620080806 4e095881 system.put_images%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20240620080806 df77073e system.soft_links%s
+D s-stache.ads		20240620080806 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240620080806 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20240620080806 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240620080806 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240620080806 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240620080806 d9032363 system.wch_con%s
+D unchconv.ads		20240620080806 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 4 12 none]
+G r c none [main standard 4 12 none] [increment_by operations 4 10 none]
+G r c none [main standard 4 12 none] [get_increment_value operations 8 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r7 1r24
+X 9 a-textio.ads
+58K13*Text_IO 727e16 13|1w11 1r28
+507U14*Put_Line 13|14s10
+X 13 main.adb
+4U12*Main 4b12 37l6 37t10
+7i6 I{integer} 14r35 20m10 23r25 25r25 28r25 30r25 33r25 35r25
+8i6 R{integer} 18r27 20r15 23m6 25m6 28m6 30m6 33m6 35m6
+10U16 Display_Update_Values 10b16 21l10 21t31 24s6 26s6 29s6 31s6 34s6 36s6
+11i10 Incr{integer} 16r27
+X 14 operations.ads
+1K9*Operations 13|2w7 5r10 14|10e15
+4V10*Increment_By{integer} 13|23s11 25s11 28s11 30s11 33s11 35s11
+8V14*Get_Increment_Value{integer} 13|12s14
+
