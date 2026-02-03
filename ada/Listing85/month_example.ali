@@ -1,0 +1,77 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+
+U month_example%b	month_example.adb	ea5fa8a4 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20240620080806 76789da1 ada%s
+D a-except.ads		20240620080806 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240620080806 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240620080806 119b8fb3 ada.streams%s
+D a-string.ads		20240620080806 90ac6797 ada.strings%s
+D a-sttebu.ads		20240620080806 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20240620080806 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20240620080806 9eaa38c6 ada.tags%s
+D a-textio.ads		20240620080806 deada98a ada.text_io%s
+D a-unccon.ads		20240620080806 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240620080806 edec285f interfaces%s
+D i-cstrea.ads		20240620080806 e53d8b8e interfaces.c_streams%s
+D month_example.adb	20260203002417 34f2012e month_example%b
+D system.ads		20240620080806 a2da961d system%s
+D s-conca4.ads		20240620080806 d29d9dac system.concat_4%s
+D s-crtl.ads		20240620080806 8a0692f8 system.crtl%s
+D s-exctab.ads		20240620080806 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240620080806 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20240620080806 0d3f86a7 system.image_i%s
+D s-imgint.ads		20240620080806 bdb6f5ec system.img_int%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-putima.ads		20240620080806 4e095881 system.put_images%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20240620080806 df77073e system.soft_links%s
+D s-stache.ads		20240620080806 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240620080806 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20240620080806 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240620080806 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240620080806 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240620080806 d9032363 system.wch_con%s
+D unchconv.ads		20240620080806 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [month_example standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 727e16 13|1w10 1r27
+507U14*Put_Line 13|20s9
+X 13 month_example.adb
+3U11*Month_Example 3b11 25l5 25t18
+4I10 Month_Duration<short_short_integer> 10r26 16r16 22r14
+5E10 Month 7e39 10r16 19r14 21r13
+5n20 Jan{5E10}
+5n25 Feb{5E10} 16r39
+5n30 Mar{5E10}
+5n35 Apr{5E10}
+6n20 May{5E10}
+6n25 Jun{5E10}
+6n30 Jul{5E10}
+6n35 Aug{5E10}
+7n20 Sep{5E10}
+7n25 Oct{5E10}
+7n30 Nov{5E10}
+7n35 Dec{5E10}
+9A10 My_Int_Array(4I10)<5E10> 12r20
+12a5 Tab{9A10} 16r34 22r36
+16i5 Feb_Days{4I10}
+19e9 M{5E10} 21r25 22r40
+

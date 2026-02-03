@@ -1,0 +1,92 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+
+U dates%b		dates.adb		2cf09e10 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U dates%s		dates.ads		34352712 EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20240620080806 76789da1 ada%s
+D a-except.ads		20240620080806 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240620080806 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240620080806 119b8fb3 ada.streams%s
+D a-string.ads		20240620080806 90ac6797 ada.strings%s
+D a-sttebu.ads		20240620080806 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20240620080806 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20240620080806 9eaa38c6 ada.tags%s
+D a-textio.ads		20240620080806 deada98a ada.text_io%s
+D a-unccon.ads		20240620080806 0e9b276f ada.unchecked_conversion%s
+D dates.ads		20260203000254 34352712 dates%s
+D dates.adb		20260203000254 c6681088 dates%b
+D interfac.ads		20240620080806 edec285f interfaces%s
+D i-cstrea.ads		20240620080806 e53d8b8e interfaces.c_streams%s
+D system.ads		20240620080806 a2da961d system%s
+D s-conca4.ads		20240620080806 d29d9dac system.concat_4%s
+D s-crtl.ads		20240620080806 8a0692f8 system.crtl%s
+D s-exctab.ads		20240620080806 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240620080806 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20240620080806 0d3f86a7 system.image_i%s
+D s-imgint.ads		20240620080806 bdb6f5ec system.img_int%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-putima.ads		20240620080806 4e095881 system.put_images%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20240620080806 df77073e system.soft_links%s
+D s-stache.ads		20240620080806 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240620080806 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20240620080806 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240620080806 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240620080806 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240620080806 d9032363 system.wch_con%s
+D unchconv.ads		20240620080806 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [increase_month dates 14 15 none]
+G c Z s b [display_month dates 17 15 none]
+G c Z s s [dateIP dates 8 10 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 727e16 12|1w10 1r27
+507U14*Put_Line 12|35s13
+X 11 dates.ads
+1K9*Dates 20l5 20e10 12|3b14 41l5 41t10
+3E10*Months 6e37 10r17 12|10r13 15r28 16r20 17r21 32r17 36r15
+4n10*January{3E10} 12|20r22
+4n19*February{3E10}
+4n29*March{3E10}
+4n36*April{3E10}
+5n9*May{3E10}
+5n14*June{3E10}
+5n20*July{3E10}
+5n26*August{3E10}
+5n34*September{3E10}
+6n9*October{3E10}
+6n18*November{3E10}
+6n28*December{3E10} 12|19r20
+8R10*Date 12e15 15r28 18r21 12|6r28 28r25
+9i9*Day{integer}
+10e9*Month{3E10} 12|10m37 32m41
+11i9*Year{integer} 12|11m38 33m42
+14U15*Increase_Month 15=10 12|5b15 25l13 25t27
+15r10 Some_Day{8R10} 12|6b10 10m28 10r28 11m29 11r29
+17U15*Display_Month 18>10 12|27b19 39l13 39t26
+18r10 Some_Day{8R10} 12|28b14 32r32 33r33
+X 12 dates.adb
+10e9 M{11|3E10} 19r16 20r17 23r17 23r28
+11i9 Y{integer} 21r17 21r22
+15V18 Next{11|3E10} 15b18 15>24 23s22
+15e24 M{11|3E10}
+32e13 M{11|3E10} 36r29
+33i13 Y{integer} 38r30
+
