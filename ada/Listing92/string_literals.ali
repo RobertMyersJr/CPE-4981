@@ -1,0 +1,15 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+
+U string_literals%s	string_literals.ads	cc66fcc9 NE OO PK
+
+D string_literals.ads	20260204192246 cc66fcc9 string_literals%s
+D system.ads		20240620080806 a2da961d system%s
+G a e
+X 1 string_literals.ads
+1K9*String_Literals 7l5 7e20
+3a5*A{string}
+4a5*B{string}
+
