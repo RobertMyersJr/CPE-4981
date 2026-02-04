@@ -1,0 +1,16 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+
+U my_types%s		my_types.ads		dee77ff8 NE OO PK
+
+D my_types.ads		20260204203508 dee77ff8 my_types%s
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z s s [priv_recIP my_types 7 10 none]
+X 1 my_types.ads
+1K9*My_Types 7E10 11l5 11e13
+3R10*Priv_Rec 7c10 9e15
+8i9*Number{integer}
+
