@@ -1,0 +1,26 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+
+U variant_record%s	variant_record.ads	59142f14 NE OO PK
+
+D system.ads		20240620080806 a2da961d system%s
+D variant_record.ads	20260204201334 59142f14 variant_record%s
+G a e
+G c Z s s [exprIP variant_record 13 10 none]
+X 2 variant_record.ads
+1K9*Variant_Record 26l5 26e19
+3R10*Expr 6r32 13c10 13d16 25e15
+6P10*Expr_Access(3R10) 18r31
+8E10*Expr_Kind_Type 10e13 13r23
+8n29*Bin_Op_Plus{8E10} 17r18
+9n9*Bin_Op_Minus{8E10} 17r32
+10n9*Num{8E10} 19r18
+13e16*Kind{8E10} 16r14
+18p17*Left{6P10}
+18p23*Right{6P10}
+20i17*Val{integer}
+

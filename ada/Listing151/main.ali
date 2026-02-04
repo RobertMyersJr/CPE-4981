@@ -1,0 +1,25 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+
+U main%b		main.adb		636b375b NE OO SU
+W encapsulate%s		encapsulate.adb		encapsulate.ali
+W encapsulate.child%s	encapsulate-child.adb	encapsulate-child.ali
+
+D encapsulate.ads	20260204203237 77e81c75 encapsulate%s
+D encapsulate-child.ads	20260204203147 7039a4d2 encapsulate.child%s
+D main.adb		20260204203001 13529389 main%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z b b [main standard 3 11 none]
+G r c none [main standard 3 11 none] [hello3 encapsulate__child 3 15 none]
+X 1 encapsulate.ads
+1K9*Encapsulate 9e16 3|1r6 5r5
+X 2 encapsulate-child.ads
+1K21*Child 5e22 3|1w18 5r17
+3U15*Hello3 3|5s23
+X 3 main.adb
+3U11*Main 3b11 6l5 6t9
+

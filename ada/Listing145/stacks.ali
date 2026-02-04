@@ -1,0 +1,31 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+
+U stacks%b		stacks.adb		e305ce95 NE OO PK
+
+U stacks%s		stacks.ads		e652becd EE NE OO PK
+
+D stacks.ads		20260204202541 e652becd stacks%s
+D stacks.adb		20260204202405 05577058 stacks%b
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z s b [push stacks 5 15 none]
+G c Z s b [pop stacks 7 15 none]
+G c Z s s [Tcontent_typeBIP stacks 13 5 none]
+G c Z s s [stackIP stacks 16 10 none]
+X 1 stacks.ads
+1K9*Stacks 10E13 20l5 20e11 2|1b14 17l5 17t11
+2R10*Stack 5r32 7r31 16c10 19e15 2|3r32 10r31
+5U15*Push 5=21 6>9 2|3b15 8l9 8t13
+5r21 S{2R10} 2|3b21
+6i9 Val{integer} 2|4b9
+7U15*Pop 7=20 8<9 2|10b15 15l9 15t12
+7r20 S{2R10} 2|10b20
+8i9 Val{integer} 2|11b9 14m9
+10I13 Stack_Index{natural} 14r16 17r15
+13A10 Content_Type(natural)<integer> 18r19
+17i9*Top{10I13}
+18a9*Content{13A10}
+

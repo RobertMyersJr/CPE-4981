@@ -1,0 +1,62 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+RV NO_IO
+
+U encapsulate.child%b	encapsulate-child.adb	9b142856 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W encapsulate%s		encapsulate.adb		encapsulate.ali
+
+U encapsulate.child%s	encapsulate-child.ads	07d1b8a7 EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W encapsulate%s		encapsulate.adb		encapsulate.ali
+
+D ada.ads		20240620080806 76789da1 ada%s
+D a-except.ads		20240620080806 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240620080806 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240620080806 119b8fb3 ada.streams%s
+D a-string.ads		20240620080806 90ac6797 ada.strings%s
+D a-sttebu.ads		20240620080806 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20240620080806 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20240620080806 9eaa38c6 ada.tags%s
+D a-textio.ads		20240620080806 deada98a ada.text_io%s
+D a-unccon.ads		20240620080806 0e9b276f ada.unchecked_conversion%s
+D encapsulate.ads	20260204203237 77e81c75 encapsulate%s
+D encapsulate-child.ads	20260204203147 7039a4d2 encapsulate.child%s
+D encapsulate-child.adb	20260204203200 3580250e encapsulate.child%b
+D interfac.ads		20240620080806 edec285f interfaces%s
+D i-cstrea.ads		20240620080806 e53d8b8e interfaces.c_streams%s
+D system.ads		20240620080806 a2da961d system%s
+D s-crtl.ads		20240620080806 8a0692f8 system.crtl%s
+D s-exctab.ads		20240620080806 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240620080806 dc5161d4 system.file_control_block%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-putima.ads		20240620080806 4e095881 system.put_images%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20240620080806 df77073e system.soft_links%s
+D s-stache.ads		20240620080806 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240620080806 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20240620080806 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240620080806 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240620080806 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240620080806 d9032363 system.wch_con%s
+D unchconv.ads		20240620080806 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [hello3 encapsulate__child 3 15 none]
+G r c none [hello3 encapsulate__child 3 15 none] [hello2 encapsulate 6 15 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 727e16 13|1w10 1r27
+507U14*Put_Line 13|10s9
+X 11 encapsulate.ads
+1K9*Encapsulate 9e16 12|1r9 5r5 13|3r14 13r5
+6U15 Hello2 13|9s9
+X 12 encapsulate-child.ads
+1K21*Child 11|1k9 12|5l17 5e22 13|3b26 13l17 13t22
+3U15*Hello3 13|5b15 11l9 11t15
+

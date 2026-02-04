@@ -1,0 +1,20 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+
+U simple_list%s		simple_list.ads		bd23de45 NE OO PK
+
+D simple_list.ads	20260204200510 bd23de45 simple_list%s
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z s s [nodeIP simple_list 9 10 none]
+X 1 simple_list.ads
+1K9*Simple_List 13l5 13e16
+2R10*Node 7r29 9c10 12e15
+7P10*Node_Acc(2R10) 11r22
+10i9*Content{natural}
+11p9*Prev{7P10}
+11p15*Next{7P10}
+

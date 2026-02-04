@@ -1,0 +1,20 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+
+U var_size_record_2%s	var_size_record_2.ads	ee357c52 NE OO PK
+
+D system.ads		20240620080806 a2da961d system%s
+D var_size_record_2.ads	20260204201154 ee357c52 var_size_record_2%s
+G a e
+G c Z s s [items_arrayIP var_size_record_2 2 10 none]
+G c Z s s [growable_stackIP var_size_record_2 5 14 none]
+X 2 var_size_record_2.ads
+1K9*Var_Size_Record_2 15l5 15e22
+2A10*Items_Array(integer)<integer> 10r21
+5R14*Growable_Stack 5d30 12e19
+5i30*Max_Len{natural} 10r39
+10a13*Items{2A10}
+11i13*Len{natural}
+
