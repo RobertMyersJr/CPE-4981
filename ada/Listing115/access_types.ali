@@ -1,0 +1,21 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+
+U access_types%s	access_types.ads	402f798c NE OO PK
+W dates%s		dates.ads		dates.ali
+
+D access_types.ads	20260204195313 1c7456b1 access_types%s
+D dates.ads		20260204195248 5c5b2f3d dates%s
+D system.ads		20240620080806 a2da961d system%s
+G a e
+X 1 access_types.ads
+3K9*Access_Types 15l5 15e17
+5P10*Date_Acc(2|7R10) 11r9
+11p5*D{5P10}
+X 2 dates.ads
+1K9*Dates 1|1w6 1r17 2|12e10
+7R10*Date 1|5r29 2|11e15
+

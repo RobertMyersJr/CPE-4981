@@ -1,0 +1,33 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+
+U dates%s		dates.ads		5c5b2f3d NE OO PK
+
+D dates.ads		20260204195229 5c5b2f3d dates%s
+D system.ads		20240620080806 a2da961d system%s
+G a e
+G c Z s s [dateIP dates 7 10 none]
+X 1 dates.ads
+1K9*Dates 12l5 12e10
+2E10*Months 5e37 9r17
+3n10*January{2E10}
+3n19*February{2E10}
+3n29*March{2E10}
+3n36*April{2E10}
+4n9*May{2E10}
+4n14*June{2E10}
+4n20*July{2E10}
+4n26*August{2E10}
+4n34*September{2E10}
+5n9*October{2E10}
+5n18*November{2E10}
+5n28*December{2E10}
+7R10*Date 11e15
+8i9*Day{integer}
+9e9*Month{2E10}
+10i9*Year{integer}
+

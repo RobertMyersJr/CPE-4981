@@ -1,0 +1,16 @@
+V "GNAT Lib v12"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U measurements%s	measurements.ads	0416e82b NE OO PK
+
+D measurements.ads	20260204193706 0416e82b measurements%s
+D system.ads		20240620080806 a2da961d system%s
+G a e
+X 1 measurements.ads
+1K9*Measurements 7l5 7e17
+3F13*Degree_Celsius{float} 5r27
+5f5*Current_Temperature{3F13}
+

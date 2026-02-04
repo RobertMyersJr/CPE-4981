@@ -1,0 +1,72 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U test_reverse_colors%b	test_reverse_colors.adb	abe83b40 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W colors%s		colors.adb		colors.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+
+D ada.ads		20240620080806 76789da1 ada%s
+D a-except.ads		20240620080806 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240620080806 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240620080806 119b8fb3 ada.streams%s
+D a-string.ads		20240620080806 90ac6797 ada.strings%s
+D a-sttebu.ads		20240620080806 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20240620080806 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20240620080806 9eaa38c6 ada.tags%s
+D a-textio.ads		20240620080806 deada98a ada.text_io%s
+D a-unccon.ads		20240620080806 0e9b276f ada.unchecked_conversion%s
+D colors.ads		20260204194042 3eac84cd colors%s
+D interfac.ads		20240620080806 edec285f interfaces%s
+D i-cstrea.ads		20240620080806 e53d8b8e interfaces.c_streams%s
+D system.ads		20240620080806 a2da961d system%s
+D s-conca2.ads		20240620080806 3d460502 system.concat_2%s
+D s-crtl.ads		20240620080806 8a0692f8 system.crtl%s
+D s-exctab.ads		20240620080806 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240620080806 dc5161d4 system.file_control_block%s
+D s-parame.ads		20240620080806 d494a4a6 system.parameters%s
+D s-putima.ads		20240620080806 4e095881 system.put_images%s
+D s-secsta.ads		20240620080806 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20240620080806 df77073e system.soft_links%s
+D s-stache.ads		20240620080806 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240620080806 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240620080806 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20240620080806 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240620080806 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240620080806 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240620080806 d9032363 system.wch_con%s
+D test_reverse_colors.adb  20260204194108 4be91607 test_reverse_colors%b
+D unchconv.ads		20240620080806 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [test_reverse_colors standard 5 11 none]
+G r c none [test_reverse_colors standard 5 11 none] [reverse_it colors 12 19 none]
+X 1 ada.ads
+16K9*Ada 20e8 30|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 727e16 30|1w10 1r27
+263U14*New_Line 30|16s5 18s5
+507U14*Put_Line 30|12s9 17s5 22s9
+X 11 colors.ads
+1K9*Colors 14e11 30|3w6 3r18
+3E10*Color 7e15 30|13r11 23r11
+3n20*Black{3E10} 30|8r10
+4n9*Red{3E10} 30|8r17
+5n9*Green{3E10} 30|8r22
+6n9*Blue{3E10} 30|8r29
+7n9*White{3E10} 30|8r35
+9A10*Color_Array(3E10)<integer> 30|7r17
+12U19*Reverse_It 30|19s5
+X 30 test_reverse_colors.adb
+5U11*Test_Reverse_Colors 5b11 26l5 26t24
+7a5 My_Colors{11|9A10} 11r14 19m17 19r17 21r14
+11e9 C=11:14{11|3E10} 13r24
+21e9 C=21:14{11|3E10} 23r24
+
