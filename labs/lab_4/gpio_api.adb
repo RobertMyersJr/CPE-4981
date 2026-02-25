@@ -48,7 +48,6 @@ package body GPIO_API is
             when GPIOC =>
                 RCC_AHB1ENR := RCC_AHB1ENR or 2#0000_0000_0000_0000_0000_0000_0000_0100#;
         end case;
-        return;
     end enable_gpio_port;
 
     -- Sets a given GPIO to output mode
