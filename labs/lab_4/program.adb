@@ -1,51 +1,5 @@
 with gpio_api; use gpio_api;
 package body program is
-
-    engine_state_0_inital: gpio_api.OUTPUT_NIBBLE := 2#0001#;
-
-    arr_1: engine_array := (
-        2#0010#, 
-        2#0100#, 
-        2#1000#, 
-        2#0001#, 
-        2#0010#, 
-        2#0100#, 
-        2#1000#, 
-        2#0001#, 
-        2#0010#, 
-        2#0100#, 
-        2#1000#,
-        2#0001#
-        );
-    arr_2: engine_array := (
-        2#0011#, 
-        2#0110#, 
-        2#1100#,
-        2#1001#,
-        2#0011#, 
-        2#0110#, 
-        2#1100#,
-        2#1001#,
-        2#0011#, 
-        2#0110#, 
-        2#1100#,
-        2#1001#
-        );
-    arr_3: engine_array := (
-        2#0011#, 
-        2#0111#, 
-        2#1110#,
-        2#1101#,
-        2#1011#,
-        2#0111#,
-        2#1110#,
-        2#1101#,
-        2#1011#,
-        2#0111#,
-        2#1110#,
-        2#1101#
-        );
-
     function get_engine_start(port : gpio_api.GPIO_PORT) return ENGINE_STATE is
         idr_value: gpio_api.Word;
         engine_bits: Natural;
@@ -61,16 +15,6 @@ package body program is
             when others => return STATE_NULL;
         end case;
     end get_engine_start;
-
-
-    procedure loop_delay_1 is
-    begin
-        --for i in 1..420 loop
-        for i in 1..420 loop
-            Counter := Counter + 1;
-        end loop;
-        Counter := 0;
-    end loop_delay_1;
 
     -- Local variables
     test_pin: gpio_api.GPIO_PIN := 5;
