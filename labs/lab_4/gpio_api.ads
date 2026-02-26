@@ -3,7 +3,7 @@ package GPIO_API is
 
     type GPIO_PORT is (GPIOA, GPIOB, GPIOC);
     type GPIO_PIN is range 0..15;
-    type NIBBLE_VALUE is range 0..4;
+    type NIBBLE_VALUE is range 0..3;
     type OUTPUT_NIBBLE is range 0..15;
 
     procedure enable_gpio_port(port : GPIO_PORT);

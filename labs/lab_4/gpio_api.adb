@@ -14,6 +14,16 @@ package body GPIO_API is
     pragma Import (C, GPIOB_IDR, "GPIOB_IDR");
     pragma Import (C, GPIOC_IDR, "GPIOC_IDR");
 
+    GPIOA_ODR : Word;
+    GPIOB_ODR : Word;
+    GPIOC_ODR : Word;
+    pragma Volatile (GPIOA_ODR);
+    pragma Volatile (GPIOB_ODR);
+    pragma Volatile (GPIOC_ODR);
+    pragma Import (C, GPIOA_ODR, "GPIOA_ODR");
+    pragma Import (C, GPIOB_ODR, "GPIOB_ODR");
+    pragma Import (C, GPIOC_ODR, "GPIOC_ODR");
+
     GPIOA_MODER : Word;
     GPIOB_MODER : Word;
     GPIOC_MODER : Word;
@@ -120,7 +130,22 @@ package body GPIO_API is
     end read_port;
 
     procedure set_nibble(port : GPIO_PORT; nibble: NIBBLE_VALUE; output: OUTPUT_NIBBLE) is
+        bit_mask: Word := 2#1111#;
+        write_value: OUTPUT_NIBBLE := output;
     begin
+        bit_mask := not (bit_mask * 2 ** (Natural(nibble)*4));
+        write_value := write_value * 2 ** (Natural(nibble)*4);
+
+        case port is
+            when GPIOA =>
+                GPIOA_ODR := (bit_mask and GPIOA_ODR) or Word(write_value);
+            when GPIOB =>
+                GPIOB_ODR := (bit_mask and GPIOB_ODR) or Word(write_value);
+            when GPIOC =>
+                GPIOC_ODR := (bit_mask and GPIOC_ODR) or Word(write_value);
+        end case;
+
+
         return;
     end set_nibble;
 end GPIO_API;
